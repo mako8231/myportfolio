@@ -15,7 +15,7 @@
               <a class="nav-link" href="#projects">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiência</a>
+              <a class="nav-link" href="#experience">Experiência</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contato</a>

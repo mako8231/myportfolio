@@ -38,12 +38,12 @@ body {
 }
 
 .jumbotron-content {
-  padding-top: 5%;
+  padding-top: 8%;
 }
 
 .project-section {
   padding-top: 14px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   background-color: var(--palette-2);
   color: white;
 }
@@ -61,10 +61,33 @@ body {
   text-decoration: none;
 }
 
+.project-item :hover {
+  color: var(--palette-5);
+  border-color: var(--palette-5);
+  text-decoration: none;
+}
+
 .project-item {
   text-align: center;
   border-radius: 10px;
   border-style: solid;
   margin: auto;
   width: 350px;
+}
+
+.experience-title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.exp-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.exp-desc {
+  margin-top: 1rem;
+  font-weight: 10rem;
+  font-size: 18px;
 }
