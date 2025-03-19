@@ -27,7 +27,8 @@ body {
 
 .presenting {
   text-align: center;
-  text-shadow: 1px 6px 6px rgb(59, 30, 35);
+  font-weight: 420;
+  /*text-shadow: 1px 6px 6px rgb(59, 30, 35);*/
 }
 
 .brief-presentation {
