@@ -1,6 +1,6 @@
 <template>
 <header id="#home">
-    <nav id="portfolio-navbar" class="navbar navbar-expand-lg">
+    <nav id="portfolio-navbar" class="navbar fixed-top navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Masao Muraoka</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +12,7 @@
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
+              <a class="nav-link" href="#projects">Projetos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Experiência</a>
