@@ -1,2 +1,36 @@
 @import './base.css';
 
+body {
+  background-color: white;
+}
+
+#portfolio-navbar{
+  background-color: var(--palette-4);
+}
+
+#portfolio-navbar .container-fluid .navbar-brand{
+  color: white;
+}
+
+.navbar-nav a{
+  color: white;
+}
+
+.profile-landing {
+  margin-top: 1rem;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.presenting {
+  text-align: center;
+  text-shadow: 1px 6px 6px rgb(59, 30, 35);
+}
+
+.brief-presentation {
+  margin: 2rem;
+  text-align: center;
+  text-justify: auto;
+}

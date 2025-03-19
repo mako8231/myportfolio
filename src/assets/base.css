@@ -1,2 +1,9 @@
 /* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --palette-1 : #11151C;
+  --palette-2 : #212D40;
+  --palette-3 : #364156;
+  --palette-4 : #7D4E57;
+  --palette-5 : #D66853;
 
+}
