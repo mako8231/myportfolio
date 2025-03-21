@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <title>Masao Muraoka Neto</title>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      el_autohide = document.querySelector('.autohide');
+      height = document.querySelector('.navbar').offsetHeight;
+      document.body.style.paddingTop = height + 'px'
+
+      if (el_autohide) {
+        var last_scroll_top = 0;
+        window.addEventListener('scroll', function(){
+          let scroll_top = window.scrollY;
+          if (scroll_top < last_scroll_top){
+            el_autohide.classList.remove('scrolled-down');
+            el_autohide.classList.add('scrolled-up');
+          } else {
+            el_autohide.classList.remove('scrolled-up');
+            el_autohide.classList.add('scrolled-down')
+          }
+          last_scroll_top = scroll_top
+        })
+      }
+
+    })
+  </script>
 </html>

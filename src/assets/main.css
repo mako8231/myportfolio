@@ -1,7 +1,30 @@
 @import './base.css';
 
+/**<weight>: Use a value from 200 to 800
+   <uniquifier>: Use a unique and descriptive class name**/
+
+.sono-main {
+  font-family: "Sono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "MONO" 1;
+}
+
 body {
   background-color: white;
+  font-family: "Sono", monospace;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
 }
 
 #portfolio-navbar{
@@ -38,7 +61,12 @@ body {
 }
 
 .jumbotron-content {
-  padding-top: 8%;
+  padding-top: 2%;
+}
+
+.experience-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .project-section {
@@ -62,9 +90,7 @@ body {
 }
 
 .project-item :hover {
-  color: var(--palette-5);
-  border-color: var(--palette-5);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .project-item {
@@ -90,4 +116,38 @@ body {
   margin-top: 1rem;
   font-weight: 10rem;
   font-size: 18px;
+}
+
+@media only screen and (min-width: 600px) {
+  .contact-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  };
+}
+
+.contact-item a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.contact-item :hover {
+  text-decoration: underline;
+}
+
+.copyright-footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: var(--palette-3);
+}
+
+.copyright-footer div a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright-footer div :hover {
+  text-decoration: underline;
 }

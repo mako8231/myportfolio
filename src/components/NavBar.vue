@@ -1,8 +1,8 @@
 <template>
 <header id="#home">
-    <nav id="portfolio-navbar" class="navbar fixed-top navbar-expand-lg">
+    <nav id="portfolio-navbar" class="autohide navbar fixed-top navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Masao Muraoka</a>
+        <a class="navbar-brand" href="#">Masao Muraoka Neto</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -18,7 +18,7 @@
               <a class="nav-link" href="#experience">Experiência</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contact">Contato</a>
             </li>
           </ul>
         </div>
