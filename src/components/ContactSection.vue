@@ -1,5 +1,5 @@
 <template>
-  <section class="project-section contact-section">
+  <section id="contact" class="project-section contact-section">
   <div class="container-fluid">
         <h1 class="project-title" >Contato:</h1>
         <hr>
