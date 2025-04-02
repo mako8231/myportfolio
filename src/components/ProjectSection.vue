@@ -14,7 +14,9 @@ import ProjectItem from './ProjectComponent/ProjectItem.vue';
       </div>
       <div class="my-3 d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-xs-column gap-3">
           <ProjectItem titulo="Projeto Humanoide" descricao="Um boneco humanoide criado em C/OpenGL para a disciplina de Computação Gráfica" tecnologias="C/C++, OpenGL" url="https://github.com/mako8231/ProjetoHumanoide"></ProjectItem>
-        </div>
+          <ProjectItem titulo="ChatUP" descricao="Uma aplicação web de chat online, com usernames customizáveis." tecnologias="Javascript, Golang, Websockets" url="https://github.com/mako8231/chatup"></ProjectItem>
+        
+      </div>
       </div>
   </section>
 </template>
